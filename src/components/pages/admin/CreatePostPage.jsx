@@ -8,7 +8,7 @@ const initailData = {
     category: "",
     isPublished: false,
 }
-function PostList() {
+function CreatePostPage() {
   const [posts, setPosts] = useState([]);
   const [formData, setFormData] = useState(initailData);
 
@@ -156,4 +156,4 @@ const getPosts= () => {
   );
 }
 
-export default PostList;
+export default CreatePostPage;
